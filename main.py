@@ -22,7 +22,7 @@ app_id = os.getenv('APP_ID')
 app_secret = os.getenv('APP_SECRET')
 
 user_ids = os.getenv('USER_ID', '').split("\n")
-url = "https://lab.magiconch.com/sakana/?v=takina"
+url = "https://lab.magiconch.com/sakana/"
 template_id = os.getenv('TEMPLATE_ID')
 
 # 为读取农历生日准备
